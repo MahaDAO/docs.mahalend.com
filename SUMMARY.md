@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Mahalend](README.md)
+* [MahaLend Documentation](README.md)
 * [Understanding the Dashboard](understanding-the-dashboard.md)
 * [Opening a Leveraged Position](opening-a-leveraged-position.md)
 * [Viewing your Positions](viewing-your-positions.md)
