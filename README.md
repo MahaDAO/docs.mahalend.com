@@ -1,8 +1,8 @@
-# Mahalend
+# Understanding the Dashboard
 
-### What is leveraged yield farming?
+The dashboard gives you the exact details about all the pools available where you view which pool has how much debt ratio, borrow APY percentage etc.&#x20;
 
-Leveraged yield farming offers a relatively safer way to farm. It i s the practice of using borrowed money for yield farming. It allows farmers to improve their yield farming position by borrowing external liquidity (money from liquidity pools) to increase their overall liquidity, resulting in a higher return volume.&#x20;
+This is where the user gets the option to do farming.&#x20;
 
-&#x20;&#x20;
+![The dashboard gives you details about all the pools available.](<.gitbook/assets/Desktop (1).png>)
 
