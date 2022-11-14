@@ -1,8 +1,8 @@
 # Understanding the Dashboard
 
-The dashboard gives you the exact details about all the pools available where you view which pool has how much debt ratio, borrow APY percentage etc.&#x20;
+The dashboard gives you the exact details about all the amount borrowed and deposited.&#x20;
 
-This is where the user gets the option to do farming.&#x20;
+You will get to know about the approximate balance left and the collateral and interest rate on the deposits and borrowed amounts.&#x20;
 
-![The dashboard gives you details about all the pools available.](<.gitbook/assets/Desktop (1).png>)
+<figure><img src=".gitbook/assets/dashboard.jpg" alt=""><figcaption><p>The dashboard gives you the details about all the amounts that have been made till date.</p></figcaption></figure>
 
