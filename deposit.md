@@ -8,7 +8,7 @@ Users who want to become lenders can deposit their coins into our protocol-based
 
 Step 1: If you want to deposit you need to navigate to the deposit section on the page.&#x20;
 
-<figure><img src=".gitbook/assets/1 (1).jpg" alt=""><figcaption><p>The dashboard gives you all the details regarding all deposits and borrowed amount. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/1.jpg" alt=""><figcaption><p>The dashboard gives you all the details regarding all deposits and borrowed amount. </p></figcaption></figure>
 
 
 
