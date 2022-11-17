@@ -10,7 +10,7 @@
 
 
 
-**Step 3:** You need to select an asset and input the amount and you will be informed accordingly whether or not it is safer or it riskier.&#x20;
+**Step 3:** You need to select an asset and input the amount and you will be informed accordingly whether or not it is safer or is riskier.&#x20;
 
 <figure><img src="../../.gitbook/assets/borrow 2 .jpg" alt=""><figcaption><p>Once you input an amount you will be able to decide whether it's suitable for the borrow process based on the meter that informs you regarding the same.</p></figcaption></figure>
 
