@@ -7,6 +7,8 @@
 * [Lending Protocol](overview/lending-protocol/README.md)
   * [Borrow](overview/lending-protocol/borrow.md)
   * [Deposit](overview/lending-protocol/deposit.md)
+  * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
+  * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Governance](overview/governance.md)
 * [FAQ](overview/faq.md)
 
@@ -19,5 +21,7 @@
 
 ## External Links
 
-* [Website](external-links/website.md)
 * [Community](external-links/community.md)
+* [Mahalend Website](https://mahalend.com)
+* [ARTH Valuecoin](https://docs.arth.loans)
+* [MahaDAO Website](https://mahadao.com)
