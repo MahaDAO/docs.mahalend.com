@@ -1,3 +1,7 @@
+---
+description: To borrow you need to supply an asset to be used as collateral.
+---
+
 # Borrow
 
 Mahalend currently supports two types of borrowing. The first is Overcollateralized, which makes up the majority of loans the general user will utilize, and the second is undercollateralized, or single transaction loans which are a bit more complex.&#x20;
