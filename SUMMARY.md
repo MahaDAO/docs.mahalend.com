@@ -6,7 +6,7 @@
 
 * [Lending Protocol](overview/lending-protocol/README.md)
   * [Borrow](overview/lending-protocol/borrow.md)
-  * [Deposit](overview/lending-protocol/deposit.md)
+  * [Supply](overview/lending-protocol/supply.md)
   * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
   * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Governance](overview/governance.md)
