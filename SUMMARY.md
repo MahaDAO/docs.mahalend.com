@@ -12,6 +12,11 @@
 * [Governance](overview/governance.md)
 * [FAQ](overview/faq.md)
 
+## TUTORIALS
+
+* [Borrow](tutorials/borrow.md)
+* [Supply](tutorials/supply.md)
+
 ## risk
 
 * [Interest Rate Model](risk/interest-rate-model.md)
