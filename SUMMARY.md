@@ -1,14 +1,13 @@
 # Table of contents
 
-* [Understanding the Dashboard](README.md)
-
 ## Overview
 
-* [Lending Protocol](overview/lending-protocol/README.md)
+* [Lending Protocol](README.md)
   * [Borrow](overview/lending-protocol/borrow.md)
   * [Supply](overview/lending-protocol/supply.md)
   * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
   * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
+* [Understanding the Dashboard](overview/understanding-the-dashboard.md)
 * [Governance](overview/governance.md)
 * [FAQ](overview/faq.md)
 

@@ -40,5 +40,5 @@ _**Note:** Make sure to keep an eye on your health factor. There is a slider tha
 
 **Step 8:** Once you have clicked on '**borrow,**' you will get a transaction update from your wallet. Once you confirm that the borrowing process is complete.&#x20;
 
-<figure><img src="../.gitbook/assets/borrow 6.jpg" alt=""><figcaption><p>You will get an update on your dashboard regarding the borrow and deposit process. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/borrow 6 (1).jpg" alt=""><figcaption><p>You will get an update on your dashboard regarding the borrow and deposit process. </p></figcaption></figure>
 
