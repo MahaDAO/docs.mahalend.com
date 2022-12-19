@@ -4,19 +4,15 @@ description: A step-by-step tutorial on Supplying
 
 # Supply
 
-**Step 1:** If you want to supply, you need to navigate to the markets section on the page.&#x20;
+**Step 1:** If you want to supply, you need to navigate to the dashboard section on the page.&#x20;
 
 <figure><img src="../.gitbook/assets/1 (2).jpg" alt=""><figcaption><p>The dashboard gives you all the details regarding all supplied and borrowed amount. </p></figcaption></figure>
 
 
 
-**Step 2:** Here, you will see different assets that have been listed and select which of them you want to supply.&#x20;
+**Step 2:** Here, you will see different assets that have been listed and select which of them you want to supply.  In the supply section you can select an asset from any of them and supply an amount into it.&#x20;
 
-<figure><img src="../.gitbook/assets/2 (1).jpg" alt=""><figcaption><p>In the supply section you can select an asset from any of them and supply an amount into it. </p></figcaption></figure>
-
-
-
-**Step 3:** Once you have selected an asset, you will be directed to the next page wherein all the details regarding that asset will be given as an overview such as the liquidity rate, and supply APY.&#x20;
+**Step 3:** Once you have selected an asset, you will be directed to the next modal wherein all the details regarding that asset will be given as an overview such as the liquidity rate, and supply APY.&#x20;
 
 **Step 4:** You must input an amount and click on '**continue**.'&#x20;
 
