@@ -10,11 +10,11 @@ description: >-
 
 ## Why would I borrow instead of selling my assets?
 
-Selling your assets means closing your position on that particular asset. Hence, if you are long on the asset, you would not be entitled to the potential upside value gain. By borrowing you are able to obtain liquidity (working capital) without selling your assets. Users are mainly borrowing for unexpected expenses, leveraging their holdings or for new investment opportunities.
+Selling your assets means closing your position on that particular asset. Hence, if you are long on the asset, you would not be entitled to the potential upside value gain. By borrowing, you can obtain liquidity (working capital) without selling your assets. Users mainly borrow for unexpected expenses, leveraging their holdings, or new investment opportunities.
 
 ## How much I can borrow?
 
-The maximum amount you can borrow depends on your supplied value and available liquidity. For example, you can’t borrow an asset if there is not enough liquidity or if your health factor doesn’t allow you to. You can find every collateral available and its specific parameters for borrowing in the [risk parameters](https://docs.aave.com/risk/asset-risk/risk-parameters) section.
+The maximum amount you can borrow depends on your supplied value and available liquidity. For example, you can’t borrow an asset if there is insufficient liquidity or your health factor doesn’t allow you to. You can find every collateral available and its specific parameters for borrowing in the [risk](broken-reference)[ framework](../risk/risk-framework.md) section.
 
 ## What asset do I need to repay?
 
@@ -24,11 +24,11 @@ You repay your loan with the same asset you borrowed. For example, if you borrow
 
 Stable rates act as fixed rates in the short term but can be re-balanced in the long term in response to changes in market conditions. The variable rate is based on the offer and demand in ARTH.&#x20;
 
-As its name indicates, the stable rate will remain pretty stable, and it is the best option to plan how much interest you will have to pay. The variable rate will change over time and could be the optimal rate depending on market conditions. You can switch between the stable and variable rate at any time through your dashboard.
+As its name indicates, the stable rate will remain pretty stable, and it is the best option to plan how much interest you will have to pay. The variable rate will change over time and could be the optimal rate depending on market conditions. You can switch between the stable and variable rates at any time through your dashboard.
 
 ## When could my stable rate be rebalanced?
 
-Stable rate rebalance is expected to be unlikely but will happen if the average borrow rate is lower than 25% APY and the utilization rate is over 95%. You can find more information in the [latest post](https://medium.com/aave/aave-borrowing-rates-upgraded-f6c8b27973a7) about the new stable rate strategy.&#x20;
+Stable rate rebalance is expected to be unlikely but will happen if the average borrow rate is lower than 25% APY and the utilization rate is over 95%.
 
 ## How do I switch my interest rate type?
 
@@ -40,12 +40,14 @@ No, you can only borrow using a stable or variable rate. If you switch to your d
 
 ## What is the health factor?
 
-The health factor is the numeric representation of the safety of your deposited assets against the borrowed assets and its underlying value. The higher the value is, the safer the state of your funds is against a liquidation scenario. If the health factor reaches 1, the liquidation of your deposits will be triggered. A Health Factor below 1 can get liquidated. For an HF=2, the collateral value vs. borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the [risk parameters](https://docs.aave.com/risk/asset-risk/risk-parameters) section. \
-If you would like to know more technical details about the health factor calculation, you can find those [here](https://docs.aave.com/risk/asset-risk/risk-parameters#health-factor).
+The health factor is the numeric representation of the safety of your deposited assets against the borrowed assets and their underlying value. The higher the value is, the safer the state of your funds is against a liquidation scenario. If the health factor reaches 1, the liquidation of your deposits will be triggered. A Health Factor below 1 can get liquidated. For an HF=2, the collateral value vs. borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the [risk parameter](../risk/risk-framework.md#health-factor) section.&#x20;
+
+\
+If you would like to know more technical details about the health factor calculation, you can find those [here](../risk/risk-framework.md#health-factor).
 
 ## What happens when my health factor is reduced?
 
-Depending on the value fluctuation of your supplies, the health factor will increase or decrease. If your health factor increases, it will improve your borrow position by making the liquidation threshold more unlikely to be reached. In the case that the value of your collateralised assets against the borrowed assets decreases instead, the health factor is also reduced, causing the risk of liquidation to increase.
+Depending on the value fluctuation of your supplies, the health factor will increase or decrease. If your health factor increases, it will improve your borrow position by making the liquidation threshold unlikely to be reached. In the case that the value of your collateralised assets against the borrowed assets decreases instead, the health factor is also reduced, causing the risk of liquidation to increase.
 
 ## When do I need to pay back the loan?
 
@@ -79,7 +81,7 @@ You would need to ensure enough liquidity (not borrowed) to withdraw. If this is
 
 ## How do I vote?
 
-1. Go to the "Governance" section in the [app ](https://app.aave.com/)and select the relevant proposal.
+1. Go to the "Governance" section in the app and select the relevant proposal.
 2. Read through the proposal and ensure you fully understand what is being proposed. (_**Note:**_ If you would like to discuss it, select the discussion link on the right-hand side to be directed to the post on the governance forum.)
 3. On the right-hand side, select the vote you would like to cast.
 4. Confirm your vote.

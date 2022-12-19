@@ -8,16 +8,16 @@ $$if \hspace{1mm} U \leq U_{optimal}: \hspace{1cm} R_t = R_0 + \frac{U_t}{U_{opt
 
 $$if \hspace{1mm} U > U_{optimal}: \hspace{1cm} R_t = R_0 + R_{slope1} + \frac{U_t-U_{optimal}}{1-U_{optimal}}R_{slope2}$$
 
-In the borrow rate technical implementation, the [calculateCompoundedInterest](https://github.com/aave/aave-v3-core/blob/e46341caf815edc268893f4f9398035f242375d9/contracts/protocol/libraries/math/MathUtils.sol#L51) method relies on an approximation that mostly affects high interest rates. The resulting actual borrow rate is as follows:
+In the borrow rate technical implementation, the calculateCompoundedInterest method relies on an approximation that mostly affects high interest rates. The resulting actual borrow rate is as follows:
 
 $$Actual APY = (1+Theoretical APY/secsperyear)^{secsperyear}-1$$
 
 * When $$U \leq U_{optimal}$$ the borrow interest rates increase slowly with utilisation
 * When $$U > U_{optimal}$$ the borrow interest rates increase sharply with utilisation to above 50% APY if the liquidity is fully utilised.
 
-Both the variable and stable interest models, are derived from the formula above from the [Whitepaper](https://github.com/aave/aave-protocol/blob/master/docs/Aave\_Protocol\_Whitepaper\_v1\_0.pdf) with different parameters for each asset.
+Both the variable and stable interest models, are derived from the formula above from the Whitepaper with different parameters for each asset.
 
-Variable debt see their rate constantly evolving with utilisation.
+Variable debt sees their rate constantly evolving with utilisation.
 
 Alternatively, stable debts maintain their interest rate at issuance until the specific rebalancing conditions are met. Interest models are optimised by new rate strategy parameter **Optimal Stable/Total Debt Ratio** to algorithmically manage stable rate.
 
@@ -25,11 +25,11 @@ $$if \hspace{1mm} ratio < ratio_{o}: \hspace{1cm} R_{t} = r_{0} + \frac{ratio - 
 
 ## Model Parameters
 
-First, it’s crucial to distinguish assets that are used predominantly as collateral (i.e., volatile assets), which need liquidity at all times to enable liquidations. Second, the asset’s liquidity on Mahalend is an important factor as the more liquidity, the more stable the utilisation. The interest rates of assets with lower liquidity levels should be more conservative.
+First, it’s crucial to distinguish assets used predominantly as collateral (i.e., volatile assets), which need liquidity at all times to enable liquidations. Second, the asset’s liquidity on Mahalend is an important factor, as the more liquidity, the more stable the utilisation. The interest rates of assets with lower liquidity levels should be more conservative.
 
-It is also key to consider market conditions (i.e., how can the asset be used in the current market?). Mahalends borrowing costs must be aligned with market yield opportunities, or there would be a rate arbitrage with users incentivized to borrow all the liquidity on Mahalend to take advantage of higher yield opportunities.
+It is also key to consider market conditions (i.e., how can the asset be used in the current market?). Mahalend's borrowing costs must be aligned with market yield opportunities, or there would be a rate arbitrage with users incentivized to borrow all the liquidity on Mahalend to take advantage of higher yield opportunities.
 
-With the rise of liquidity mining, Maha adapted its cost of borrowing by lowering the _Uoptimal_ of the assets affected. This increased the borrow costs that are now partially offset by the liquidity reward.
+With the rise of liquidity mining, Maha adapted its cost of borrowing by lowering the _Uoptimal_ of the assets affected. This increased the borrowing costs that are now partially offset by the liquidity reward.
 
 ### Variable Interest Rate Model Parameters
 
@@ -53,10 +53,10 @@ Stable rate parameters:
 The stable rate provides predictability for the borrower; however, it comes at a cost, as the interest rates are higher than the variable rate. The rate of a stable loan is fixed until the rebalancing conditions are met:
 
 1. Utilisation Rate: $$U_t > 95\%$$
-2. Overall Borrow Rate, the weighed average of all the borrow rates: $$R_O < 25\%$$
+2. Overall Borrow Rate, the weighted average of all the borrow rates: $$R_O < 25\%$$
 
 {% hint style="info" %}
-The assets that are most exposed to liquidity risk do not offer stable rate borrowing.
+The assets that are most exposed to liquidity risk do not offer stable-rate borrowing.
 {% endhint %}
 
 {% hint style="info" %}
@@ -67,7 +67,7 @@ The base rate of the stable rate model corresponds to the average market rate of
 
 ## Rate Strategy Volatile One
 
-Volatile assets need liquidity at all times and are thus calibrated at a low Optimal Utilisation Ratio
+Volatile assets need liquidity at all times and are thus calibrated at a low Optimal Utilisation Ratio.
 
 {% hint style="info" %}
 AAVE, BAL, CRV, DPI, GHST, LINK, SUSHI, WAVAX, WBTC, WETH, WFTM, WMATIC, WONE
@@ -86,7 +86,7 @@ AAVE, BAL, CRV, DPI, GHST, LINK, SUSHI, WAVAX, WBTC, WETH, WFTM, WMATIC, WONE
 
 ## Rate Strategy Stable One
 
-Low liquidity stablecoins have lower Optimal Utilisation Ratio than those with higher liquidity.
+Low liquidity stablecoins have a lower Optimal Utilisation Ratio than those with higher liquidity.
 
 {% hint style="info" %}
 DAI
@@ -105,7 +105,7 @@ DAI
 
 ## Rate Strategy Stable Two
 
-High liquidity stablecoins which are callibrated to lower rates to encourage borrow.
+High liquidity stablecoins are calibrated to lower rates to encourage borrowing.
 
 {% hint style="info" %}
 SUSD, USDC, USDT, EURS, JEUR, AGEUR

@@ -1,6 +1,6 @@
 # Asset Risk
 
-The composability of DeFi enables the Mahalend Protocol to connect with the rest of the ecosystem; however, it also exposes the protocol to various ecosystem risks. Tokens used in the protocol affect the protocol at its core (specifically tokens accepted as collateral which safeguard the solvency of the protocol). At least three different aspects of risk are important to assessing whether an asset exposes the Mahalend Protocol to undue risk: smart contract risk, counterparty risk, and market risk.
+The composability of DeFi enables the Mahalend Protocol to connect with the rest of the ecosystem; however, it also exposes the protocol to various ecosystem risks. Tokens used in the protocol affect the protocol at its core (specifically tokens accepted as collateral which safeguard the solvency of the protocol). At least three aspects of risk are important to assessing whether an asset exposes the Mahalend Protocol to undue risk: smart contract risk, counterparty risk, and market risk.
 
 ### Smart Contract Risk
 
@@ -20,7 +20,7 @@ Market risks are linked to the size of a particular asset pool in the protocol, 
 Market risk assessments should use average daily volume representing the availability of the asset to assess liquidity risk: E\[volume]\
 
 
-The volatility risk is based on the normalised fluctuations in the token price and is calculated as the standard deviation of the logarithmic returns: (check equation) This metric is in line with industry standards used by Bitmex or Gauntlet.
+The volatility risk is based on the normalised fluctuations in the token price and is calculated as the standard deviation of the logarithmic returns: (check equation). This metric is in line with industry standards used by Bitmex or Gauntlet.
 
 These values should be assessed at the following intervals: 1 week, 1 month, 3 months, 6 months, and 1 year.
 
