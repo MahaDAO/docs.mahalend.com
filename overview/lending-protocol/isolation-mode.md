@@ -1,7 +1,5 @@
 # Isolation Mode
 
-### Isolation Mode
-
 Isolation mode allows Maha Governance to list new assets as isolated assets with a specific debt ceiling. Only certain assets can be borrowed in isolation mode—specifically, approved stablecoins.
 
 The debt ceiling for an isolated asset is the maximum amount in USD that can be borrowed against the user’s collateral with two decimals of precision.&#x20;

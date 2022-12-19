@@ -4,7 +4,7 @@ description: >-
   providers.
 ---
 
-# FAQ
+# FAQs
 
 ## _Borrowing_
 
@@ -18,7 +18,7 @@ The maximum amount you can borrow depends on your supplied value and available l
 
 ## What asset do I need to repay?
 
-You repay your loan with the same asset you borrowed. For example, if you borrow 1 ETH, you will pay back 1 ETH + interest accrued. You can also use your collateral to repay. If you want to pay back the loan based on the USD price, you can borrow any available stablecoins such as USDC, DAI, USDT, etc.
+You repay your loan with the same asset you borrowed. For example, if you borrow 1 ARTH, you will pay back 1 ARTH + interest accrued. You can also use your collateral to repay. If you want to pay back the loan based on the USD price, you can borrow any available stablecoins such as USDC, DAI, etc.
 
 ## What is the difference between stable and variable rates?
 

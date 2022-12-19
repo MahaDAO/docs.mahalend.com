@@ -2,7 +2,7 @@
 description: To borrow you need to supply an asset to be used as collateral.
 ---
 
-# Borrow
+# Borrow ARTH
 
 MahaLend currently supports two types of borrowing. The first is over-collateralized, which makes up the majority of loans the general user will utilize. The second is undercollateralized, or single transaction loans, which are a bit more complex.&#x20;
 
@@ -12,7 +12,7 @@ All loans and lending protocols require the borrower to put up some collateral t
 
 Your collateral will automatically get liquidated to cover the loan if this **threshold is ever breached**. Depending on the type of collateral a user deposits, this may happen in high-volatility environments, where the value of the collateral depreciates against the value of the borrowed asset. This is an inherent risk to borrowing volatile assets and is why overcollaterization is the safest way to avoid being liquidated.&#x20;
 
-Additionally, borrowers must pay interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. Within the Mahalend ecosystem, there are two interest rate variations. Stable and variable. Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../../risk/interest-rate-model.md) section.
+Additionally, borrowers must pay interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. Within the Mahalend ecosystem, there are two interest rate variations. Stable and variable. Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risk/interest-rate-model.md) section.
 
 ### Undercollateralized loans
 

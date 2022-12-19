@@ -2,11 +2,11 @@
 description: A step-by-step tutorial on Supplying
 ---
 
-# Supply
+# Supply Collaterals
 
 **Step 1:** If you want to supply, you need to navigate to the dashboard section on the page.&#x20;
 
-<figure><img src="../.gitbook/assets/1.jpg" alt=""><figcaption><p>The dashboard gives you all the details regarding all supplied and borrowed amount. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (2).jpg" alt=""><figcaption><p>The dashboard gives you all the details regarding all supplied and borrowed amount. </p></figcaption></figure>
 
 
 

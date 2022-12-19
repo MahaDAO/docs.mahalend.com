@@ -4,18 +4,18 @@
 
 ## Features
 
-* [Borrow](features/borrow.md)
-* [Supply](features/supply.md)
-* [Isolation Mode](features/isolation-mode.md)
-* [High Efficiency Mode](features/high-efficiency-mode.md)
-* [Governance](features/governance.md)
-* [FAQ](features/faq.md)
+* [Supply Liquidity](features/supply-liquidity.md)
+* [Borrow ARTH](features/borrow-arth.md)
+* [Isolation Mode](overview/lending-protocol/isolation-mode.md)
+* [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
+* [Governance](overview/governance.md)
+* [FAQs](features/faqs.md)
 
 ## TUTORIALS
 
-* [Borrow](tutorials/borrow.md)
-* [Supply](tutorials/supply.md)
-* [Understanding the Dashboard](tutorials/understanding-the-dashboard.md)
+* [Understanding the Dashboard](overview/understanding-the-dashboard.md)
+* [Borrow ARTH](tutorials/borrow-arth.md)
+* [Supply Collaterals](tutorials/supply-collaterals.md)
 
 ## risk
 
@@ -26,7 +26,6 @@
 
 ## External Links
 
-* [Community](external-links/community.md)
-* [Mahalend Website](https://mahalend.com)
-* [ARTH Valuecoin](https://docs.arth.loans)
-* [MahaDAO Website](https://mahadao.com)
+* [Website](https://mahalend.com)
+* [Github](https://github.com/mahalend)
+* [Governance](https://docs.mahadao.com/governance/governance-overview)
