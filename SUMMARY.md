@@ -4,7 +4,7 @@
 
 ## Features
 
-* [Supply Liquidity](features/supply-liquidity.md)
+* [Supply Collateral](features/supply-collateral.md)
 * [Borrow ARTH](features/borrow-arth.md)
 * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
