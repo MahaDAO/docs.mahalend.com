@@ -8,13 +8,13 @@ description: A step-by-step tutorial for Overcollateralized borrowing
 
 ### **Step-by-step instructions below👇:**
 
-_**Note:** For a user to be able to borrow, they must make a deposit first._
+**Note:** For a user to be able to borrow, they must make a deposit first.
 
-**Step 1**: Connect your wallet to the Mahalend Application. Ensure you are connected via the XXX blockchain
+**Step 1**: Connect your wallet to the Mahalend Application. Ensure you are connected to the Ethereum network.&#x20;
 
 **Step 2:** Deposit collateral.
 
-_**Note:** Once you make a deposit you will be able to borrow from any of the assets available on the '**borrow**' page based on your collateral._ &#x20;
+**Note:** Once you make a deposit you will be only be able to borrow ARTH.&#x20;
 
 <figure><img src="../.gitbook/assets/borrow 1.jpg" alt=""><figcaption><p>All assets which can be deposited into based on your collateral will be listed on the borrow page. </p></figcaption></figure>
 
