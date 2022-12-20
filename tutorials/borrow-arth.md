@@ -33,3 +33,5 @@ _**Stable APY**_- It will stay the same for the duration of your loan.&#x20;
 **Step 4:** You need to check the details and click on borrow followed by which you will get a wallet approval request to confirm the transaction.&#x20;
 
 **Step 5:** Once you have approved the transaction and get an update regarding the completion you can add the mToken to your wallet to track your supply balance.&#x20;
+
+<figure><img src="../.gitbook/assets/3 (2).jpg" alt=""><figcaption><p>You can add the mtoken to your wallet to track the supply balance. </p></figcaption></figure>
