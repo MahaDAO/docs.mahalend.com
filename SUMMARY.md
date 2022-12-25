@@ -9,7 +9,12 @@
 * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Governance](overview/governance.md)
+* [Siloed Borrowing](features/siloed-borrowing.md)
+* [Deployed Addresses](features/deployed-addresses.md)
+* [Flash Loans](features/flash-loans.md)
 * [Liquidations](features/liquidations.md)
+* [Liquidations](features/liquidations-1.md)
+* [Supply Borrow Caps](features/supply-borrow-caps.md)
 * [FAQs](features/faqs.md)
 
 ## TUTORIALS
