@@ -20,7 +20,7 @@ In case the `Borrow Cap` of the reserve is set lower than the current `totalDebt
 
 ## **Supply Caps**
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Supply cap shown in the UI for a particular asset.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Supply cap shown in the UI for a particular asset.</p></figcaption></figure>
 
 Allow limiting how much of a certain asset is supplied to the MahaLend protocol. This helps reduce exposure to a certain asset and mitigate attacks like infinite minting or price oracle manipulation.
 
