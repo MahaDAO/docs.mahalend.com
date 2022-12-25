@@ -6,9 +6,9 @@ description: This page introduces MahaLend and explains the various aspects of t
 
 <figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
-MahaLend is a decentralized non-custodial liquidity protocol (meaning your funds are yours and yours alone) where users can either provide liquidity and receive interest, or borrow ARTH, and pay interest on their loan.&#x20;
+MahaLend is a decentralized non-custodial liquidity protocol (meaning your funds are yours and yours alone) where users can either provide liquidity and receive interest, or borrow ARTH, and pay interest on their loan. MahaLend is a fork of [AAVE V3](https://aave.com/).
 
-Where MahaLend differentiates itself from other liquidity protocols is we take a risk off approach, only allowing lending and borrowing to be done with the worlds first valuecoin [ARTH](https://docs.arth.loans). This allows for safe borrowing by essentially eliminating your collaterals volatility and liquidation risk. More on that below.&#x20;
+Where MahaLend differentiates itself from other liquidity protocols is we take a risk off approach, only allowing lending and borrowing to be done with the worlds first valuecoin [ARTH](https://docs.arth.loans). This allows for safe borrowing by essentially eliminating your collaterals volatility and liquidation risk.&#x20;
 
 ## What is Decentralized Lending?
 
