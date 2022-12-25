@@ -22,7 +22,7 @@ Currently ARTH is the only asset that can interest from borrowing. All other ass
 
 The following transaction below showcases a user depositing `253 ARTH` into the protocol and in return receiving roughly `253 mARTH` in return.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p><a href="https://etherscan.io/tx/0xe5e89793cad4cec68d0db02f7706ebcdf93bdd6d9bb6c2a5ecbaeec19843e71b">https://etherscan.io/tx/0xe5e89793cad4cec68d0db02f7706ebcdf93bdd6d9bb6c2a5ecbaeec19843e71b</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption><p><a href="https://etherscan.io/tx/0xe5e89793cad4cec68d0db02f7706ebcdf93bdd6d9bb6c2a5ecbaeec19843e71b">https://etherscan.io/tx/0xe5e89793cad4cec68d0db02f7706ebcdf93bdd6d9bb6c2a5ecbaeec19843e71b</a></p></figcaption></figure>
 
 In this case, the user becomes a liquidity provider as he is providing `ARTH` into the protocol to be used by borrowers who will pay an interest fee if they borrow this `ARTH`.
 

@@ -1,6 +1,8 @@
 # Governance
 
-MAHA Governance consists of the proposition and decision-making process for the different risk parameter changes, improvements and incentives that constitute the policies, and upgrades to governance itself. All future decisions governing the protocol will be enacted through this procedure.
+Governance for the lending protocol inherits from [MahaDAO's governance](https://docs.mahadao.com/governance/governance-overview). Ownership to the core contracts is set to the governance's multisig.
+
+Governance consists of the proposition and decision-making process for the different risk parameter changes, improvements and incentives that constitute the policies, and upgrades to governance itself. All future decisions governing the protocol will be enacted through this procedure.
 
 The MAHA token empowers holders to collectively act as governors of the protocol by enabling them with the capability to vote and bring forward protocol proposals.&#x20;
 
