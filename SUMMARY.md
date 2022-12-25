@@ -4,25 +4,25 @@
 
 ## Protocol
 
-* [Supply Collateral](protocol/supply-collateral.md)
-* [Borrow ARTH](protocol/borrow-arth.md)
-* [Isolation Mode](protocol/isolation-mode.md)
-* [High Efficiency Mode](protocol/high-efficiency-mode.md)
-* [Governance](protocol/governance.md)
+* [Supply Collateral](features/supply-collateral.md)
+* [Borrow ARTH](features/borrow-arth.md)
+* [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
+* [Isolation Mode](overview/lending-protocol/isolation-mode.md)
+* [Governance](overview/governance.md)
 * [Siloed Borrowing](protocol/siloed-borrowing.md)
 * [Flash Loans](protocol/flash-loans.md)
-* [Liquidations](protocol/liquidations.md)
+* [Liquidations](features/liquidations.md)
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Deployed Addresses](protocol/deployed-addresses.md)
-* [FAQs](protocol/faqs.md)
+* [FAQs](features/faqs.md)
 
 ## risks
 
 * [Overview](risks/overview.md)
-* [Interest Rate Model](risks/interest-rate-model.md)
-* [Risk Framework](risks/risk-framework.md)
-* [Liquidity Risk](risks/liquidity-risk.md)
-* [Asset Risk](risks/asset-risk.md)
+* [Interest Rate Model](risk/interest-rate-model.md)
+* [Risk Framework](risk/risk-framework.md)
+* [Liquidity Risk](risk/liquidity-risk.md)
+* [Asset Risk](risk/asset-risk.md)
 
 ## TUTORIALS
 

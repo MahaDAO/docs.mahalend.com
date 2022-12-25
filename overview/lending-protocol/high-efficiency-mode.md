@@ -6,6 +6,8 @@ Only assets of the same category (for example: stablecoins) can be borrowed in E
 
 E-mode does not restrict the usage of other assets as collateral. Assets outside the E-mode category can still be supplied as collateral with normal LTV and liquidation parameters.
 
+## FAQs
+
 ### How do I enter E-mode?
 
 To enter E-mode from the dashboard, toggle to the dropdown menu under "**Your Borrows**” where you will find an “**Enable E-mode**” button. Initially, the button to enable E-mode will indicate that E-mode is “**disabled**.” Click “**Enable E-mode**" and follow the instructions in the pop-up. Once you have followed the instructions, you will have enhanced borrowing power (i.e., up to 97% LTV) within E-mode and can only borrow assets within the same category of assets (for example, stablecoins).

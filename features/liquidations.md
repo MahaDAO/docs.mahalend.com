@@ -70,7 +70,7 @@ One way to calculate the profitability is the following:
 
 ### How is the liquidation bonus determined? <a href="#how-is-liquidation-bonus-determined" id="how-is-liquidation-bonus-determined"></a>
 
-Liquidation bonuses for all the assets are evaluated and determined based on each asset's liquidity risk and updated via the [Governance process](governance.md).
+Liquidation bonuses for all the assets are evaluated and determined based on each asset's liquidity risk and updated via the [Governance process](../overview/governance.md).
 
 ### How much is the liquidation penalty?
 

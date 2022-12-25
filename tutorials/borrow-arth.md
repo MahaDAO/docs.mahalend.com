@@ -16,7 +16,7 @@ description: A step-by-step tutorial for Overcollateralized borrowing
 
 **Note:** Once you make a deposit you will be only be able to borrow ARTH.&#x20;
 
-<figure><img src="../.gitbook/assets/1.jpg" alt=""><figcaption><p>You can only borrow currently from ARTH under the Ethereum network.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1).jpg" alt=""><figcaption><p>You can only borrow currently from ARTH under the Ethereum network.</p></figcaption></figure>
 
 **Step 3:** Click on the 'borrow' button and enter the amount you want to borrow. The max borrowable amount will be based on your collateral.
 

@@ -5,7 +5,7 @@ This feature allows assets with potentially manipulatable oracles (for example, 
 This helps mitigate the risk associated with such assets from impacting the overall solvency of the protocol.
 
 {% hint style="info" %}
-Risk or Pool admin, selected by [Governance](governance.md), can call `setSiloedBorrowing` to set an asset in _Siloed Borrowing_ mode.
+Risk or Pool admin, selected by [Governance](../overview/governance.md), can call `setSiloedBorrowing` to set an asset in _Siloed Borrowing_ mode.
 {% endhint %}
 
 ## Supply Siloed Assets

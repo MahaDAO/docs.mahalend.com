@@ -4,7 +4,7 @@ description: This section explains what it means to supply liquidity to MahaLend
 
 # Supply Collateral
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>A screenshot of the supply page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>A screenshot of the supply page</p></figcaption></figure>
 
 When you supply funds to the protocol, whether to use them as collateral or as a liquidity provider, you will automatically begin earning interest or yield on your funds.
 

@@ -20,7 +20,7 @@ In case the `Borrow Cap` of the reserve is set lower than the current `totalDebt
 
 ## **Supply Caps**
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Supply cap shown in the UI for a particular asset.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Supply cap shown in the UI for a particular asset.</p></figcaption></figure>
 
 Allow limiting how much of a certain asset is supplied to the MahaLend protocol. This helps reduce exposure to a certain asset and mitigate attacks like infinite minting or price oracle manipulation.
 
@@ -34,4 +34,4 @@ In case the Supply Cap of the reserve is set lower than the current liquidity of
 
 ### How are supply/borrow caps assigned?
 
-[Governance](governance.md) can at any point in time appoint `RISK_ADMIN` and `POOL_ADMIN` who have the ability to configure the Borrow and Supply Caps of the individual reserves.
+[Governance](../overview/governance.md) can at any point in time appoint `RISK_ADMIN` and `POOL_ADMIN` who have the ability to configure the Borrow and Supply Caps of the individual reserves.
