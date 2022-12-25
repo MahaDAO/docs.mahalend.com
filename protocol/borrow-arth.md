@@ -20,7 +20,7 @@ All loans and lending protocols require the borrower to put up some collateral t
 
 Your collateral will automatically get liquidated to cover the loan if this **threshold is ever breached**. Depending on the type of collateral a user deposits, this may happen in high-volatility environments, where the value of the collateral depreciates against the value of the borrowed asset. This is an inherent risk to borrowing volatile assets and is why overcollaterization is the safest way to avoid being liquidated.&#x20;
 
-Additionally, borrowers must pay interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. Within the Mahalend ecosystem, there are two interest rate variations. Stable and variable. Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risk/interest-rate-model.md) section.
+Additionally, borrowers must pay interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. Within the Mahalend ecosystem, there are two interest rate variations. Stable and variable. Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risks/interest-rate-model.md) section.
 
 ### Under-collateralized loans or Flash Loans
 
@@ -42,7 +42,7 @@ By borrowing, you can obtain liquidity (working capital) without selling your as
 
 The maximum amount you can borrow depends on your supplied value and available liquidity. For example, you can’t borrow an asset if there is insufficient liquidity or your health factor doesn’t allow you to.&#x20;
 
-You can find every collateral available and its specific parameters for borrowing in the [risk framework](../risk/risk-framework.md) section.
+You can find every collateral available and its specific parameters for borrowing in the [risk framework](../risks/risk-framework.md) section.
 
 ### What asset do I need to repay?
 
@@ -72,9 +72,9 @@ No, you can only borrow using a stable or variable rate. If you switch to your d
 
 The health factor is the numeric representation of the safety of your deposited assets against the borrowed assets and their underlying value. The higher the value is, the safer the state of your funds is against a liquidation scenario. If the health factor reaches 1, the liquidation of your deposits will be triggered.&#x20;
 
-A Health Factor below 1 can get liquidated. For an HF=2, the collateral value vs. borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the [risk parameter](../risk/risk-framework.md#health-factor) section.&#x20;
+A Health Factor below 1 can get liquidated. For an HF=2, the collateral value vs. borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the [risk parameter](../risks/risk-framework.md#health-factor) section.&#x20;
 
-If you would like to know more technical details about the health factor calculation, you can find those [here](../risk/risk-framework.md#health-factor).
+If you would like to know more technical details about the health factor calculation, you can find those [here](../risks/risk-framework.md#health-factor).
 
 ### What happens when my health factor is reduced?
 

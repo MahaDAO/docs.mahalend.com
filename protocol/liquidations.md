@@ -1,11 +1,17 @@
 # Liquidations
 
-The health of the MahaLend Protocol is dependent on the 'health' of the collateralised positions within the protocol, also known as the 'health factor.' When the 'health factor' of an account's total loans is below 1, anyone can make a `liquidationCall()` to the `Pool` or L2Pool (in case of Arbitrum/Optimism) contract, pay back part of the debt owed and receive discounted collateral in return (also known as the liquidation bonus). This incentivises third parties to participate in the health of the overall protocol by acting in their own interest (to receive the discounted collateral) and, as a result, ensure borrows are sufficiently collateralized. There are multiple ways to participate in liquidations:
+The health of the MahaLend Protocol is dependent on the 'health' of the collateralized positions within the protocol, also known as the 'health factor.' When the 'health factor' of an account's total loans is below 1, anyone can make a `liquidationCall()` to the `Pool` contract, pay back part of the debt owed and receive discounted collateral in return (also known as the liquidation bonus).
 
-1. By calling the liquidationCall() directly in the Pool or L2Pool contract.
+This incentivizes third parties to participate in the health of the overall protocol by acting in their own interest (to receive the discounted collateral) and as a result, ensure borrows are sufficiently collateralized.
+
+There are multiple ways to participate in liquidations:
+
+1. By calling the `liquidationCall()` directly in the Pool contract.
 2. By creating your own automated bot or system to liquidate loans.
 
-For liquidation calls to be profitable, you must take into account the gas cost involved in liquidating the loan. If a high gas price is used, liquidation may be unprofitable for you. See the Calculating profitability section for more details.V3 allows 100% of the debt (i.e. `MAX_LIQUIDATION_CLOSE_FACTOR`) to be liquidated in single `liquidationCall()` if: `HF < CLOSE_FACTOR_HF_THRESHOLD`
+For liquidation calls to be profitable, you must take into account the gas cost involved in liquidating the loan. If a high gas price is used, liquidation may be unprofitable for you. See the [Calculating profitability section](liquidations.md#calculating-profitability-vs-gas-cost) for more details.&#x20;
+
+100% of the debt (i.e. `MAX_LIQUIDATION_CLOSE_FACTOR`) can be liquidated in single `liquidationCall()` if: `HF < CLOSE_FACTOR_HF_THRESHOLD`
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
@@ -22,7 +28,9 @@ When making a `liquidationCall()`, you must:
 
 ### Getting accounts to liquidate <a href="#getting-accounts-to-liquidate" id="getting-accounts-to-liquidate"></a>
 
-"User Account" in the Aave Protocol refers to a single Ethereum address interacting with the protocol. This can be an externally owned account or contract. Only user accounts that have HF < 1 can be liquidated. There are multiple ways you can get the health factor:
+"User Account" in the MahaLend Protocol refers to a single Ethereum address interacting with the protocol. This can be an externally owned account or contract.&#x20;
+
+Only user accounts that have HF < 1 can be liquidated. There are multiple ways you can get the health factor:
 
 #### On Chain <a href="#on-chain" id="on-chain"></a>
 
@@ -62,7 +70,7 @@ One way to calculate the profitability is the following:
 
 ### How is the liquidation bonus determined? <a href="#how-is-liquidation-bonus-determined" id="how-is-liquidation-bonus-determined"></a>
 
-Liquidation bonuses for all the assets are evaluated and determined based on each asset's liquidity risk and updated via the [Governance process](../overview/governance.md).
+Liquidation bonuses for all the assets are evaluated and determined based on each asset's liquidity risk and updated via the [Governance process](governance.md).
 
 ### How much is the liquidation penalty?
 

@@ -1,33 +1,34 @@
 # Table of contents
 
-* [Welcome to MahaLend](README.md)
+* [Overview](README.md)
 
-## Features
+## Protocol
 
-* [Supply Collateral](features/supply-collateral.md)
-* [Borrow ARTH](features/borrow-arth.md)
-* [Isolation Mode](overview/lending-protocol/isolation-mode.md)
-* [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
-* [Governance](overview/governance.md)
-* [Siloed Borrowing](features/siloed-borrowing.md)
-* [Deployed Addresses](features/deployed-addresses.md)
-* [Flash Loans](features/flash-loans.md)
-* [Liquidations](features/liquidations.md)
-* [Supply Borrow Caps](features/supply-borrow-caps.md)
-* [FAQs](features/faqs.md)
+* [Supply Collateral](protocol/supply-collateral.md)
+* [Borrow ARTH](protocol/borrow-arth.md)
+* [Isolation Mode](protocol/isolation-mode.md)
+* [High Efficiency Mode](protocol/high-efficiency-mode.md)
+* [Governance](protocol/governance.md)
+* [Siloed Borrowing](protocol/siloed-borrowing.md)
+* [Flash Loans](protocol/flash-loans.md)
+* [Liquidations](protocol/liquidations.md)
+* [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
+* [Deployed Addresses](protocol/deployed-addresses.md)
+* [FAQs](protocol/faqs.md)
+
+## risks
+
+* [Overview](risks/overview.md)
+* [Interest Rate Model](risks/interest-rate-model.md)
+* [Risk Framework](risks/risk-framework.md)
+* [Liquidity Risk](risks/liquidity-risk.md)
+* [Asset Risk](risks/asset-risk.md)
 
 ## TUTORIALS
 
 * [Understanding the Dashboard](overview/understanding-the-dashboard.md)
 * [Borrow ARTH](tutorials/borrow-arth.md)
 * [Supply Collaterals](tutorials/supply-collaterals.md)
-
-## risk
-
-* [Interest Rate Model](risk/interest-rate-model.md)
-* [Risk Framework](risk/risk-framework.md)
-* [Liquidity Risk](risk/liquidity-risk.md)
-* [Asset Risk](risk/asset-risk.md)
 
 ## External Links
 

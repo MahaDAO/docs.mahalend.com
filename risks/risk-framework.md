@@ -1,20 +1,20 @@
 # Risk Framework
 
-Each asset within the Mahalend Protocol has specific values related to their risk, which influences how they are supplied and borrowed within the protocol.&#x20;
+Each asset within the MahaLend Protocol has specific values related to their risk, which influences how they are supplied and borrowed within the protocol.&#x20;
 
-It is crucial for Mahalend community understand the underlying risk of each asset: assess the smart contracts security, understand the risks of centralisation and market risks. Onboarded assets, onboard their risks to the Mahalend protocol. Mahalend offers new risk mitigation parameters that allow the onboarding of assets highly exposed to these risk factors with limits and isolation mode.
+It is crucial for MahaLend community understand the underlying risk of each asset: assess the smart contracts security, understand the risks of centralization and market risks. Onboarded assets, onboard their risks to the MahaLend protocol. MahaLend offers new risk mitigation parameters that allow the onboarding of assets highly exposed to these risk factors with limits and isolation mode.
 
-All the assets supported by the Mahalend protocol are added via the Mahalend Governance proposal or via the Asset listing admins selected by the Mahalend Governance.
+All the assets supported by the MahaLend protocol are added via a Governance proposal or via the Asset listing admins selected by the Mahalend Governance.
 
 ## Risk Parameters Analysis
 
-The risk parameters mitigate the market risks of the assets supported by the Mahalend protocol. Each borrow is based on an over-collateralization with a different asset that may be subject to volatility. Sufficient margins and incentives are needed for the position to remain collateralised in the event of adverse market conditions. If the value of the collateral falls below a predetermined threshold, a portion of it will be auctioned as a `LIQUIDATION_BONUS` to repay a portion of the debt position and keep the ongoing borrow collateralised.
+The risk parameters mitigate the market risks of the assets supported by the Mahalend protocol. Each borrow is based on an over-collateralization with a different asset that may be subject to volatility. Sufficient margins and incentives are needed for the position to remain collateralized in the event of adverse market conditions. If the value of the collateral falls below a predetermined threshold, a portion of it will be auctioned as a `LIQUIDATION_BONUS` to repay a portion of the debt position and keep the ongoing borrow collateralized.
 
-Market risks can be mitigated through Mahalend’s risk parameters, which define collateralisation and liquidation rules.
+Market risks can be mitigated through MahaLend's risk parameters, which define collateralisation and liquidation rules.
 
 These parameters are calibrated on a per asset basis to account for the specific risks identified.
 
-The Mahalend Protocol introduces  new (additional) risk parameters to provide a higher level of protection against insolvency.
+The Mahalend Protocol introduces risk parameters to provide a higher level of protection against insolvency.
 
 ### Supply Caps
 
@@ -30,13 +30,13 @@ Isolation mode can be used to limit the systemic risk of listing riskier assets.
 
 ### Siloed Mode
 
-New assets with potentially manipulatable oracles (e.g., illiquid Uni V3 pairs where the price can be affected drastically by a single trade) can be listed in Siloed Mode to limit the overall risk of insolvency of the protocol. A siloed asset on the Mahalend Protocol restricts the borrower to single borrows only (i.e., a user borrowing a siloed asset cannot borrow any other asset).
+New assets with potentially manipulatable oracles (e.g., illiquid Uni V3 pairs where the price can be affected drastically by a single trade) can be listed in Siloed Mode to limit the overall risk of insolvency of the protocol. A siloed asset on the MahaLend Protocol restricts the borrower to single borrows only (i.e., a user borrowing a siloed asset cannot borrow any other asset).
 
 ### eMode
 
 Efficient Mode (”eMode”) allows assets which are correlated in price (e.g., DAI, USDC, and USDT) to be listed in the same eMode category which maximises capital efficiency by allowing higher LTVs when both the borrowed and collateral asset belong to the same eMode category.&#x20;
 
-Mahalend allows `RISK_ADMINS` and `POOL_ADMIN`, selected by Mahalend Governance, to configure up to 255 eMode categories, with each `EModeCategory` having the following risk management parameters:
+MahaLend allows `RISK_ADMINS` and `POOL_ADMIN`, selected by MahaLend Governance, to configure up to 255 eMode categories, with each `EModeCategory` having the following risk management parameters:
 
 * LTV (loan to value)
 * Liquidation Threshold
