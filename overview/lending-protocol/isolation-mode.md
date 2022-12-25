@@ -4,7 +4,9 @@ Isolation mode allows [Governance](../governance.md) to list new assets as isola
 
 The debt ceiling for an isolated asset is the maximum amount in USD that can be borrowed against the user’s collateral with two decimals of precision.&#x20;
 
-## How can I enter isolation mode?
+## FAQs
+
+### How can I enter isolation mode?
 
 Entering isolation mode is specific to certain isolated assets voted on and approved by [Governance](../governance.md). You cannot utilize non-isolated assets as collateral to enter isolation mode. The steps to entering isolation mode are as follows:
 
@@ -13,14 +15,14 @@ Entering isolation mode is specific to certain isolated assets voted on and appr
 3. Once you have successfully entered isolation mode, you can supply an isolated asset.
 4. You can also borrow assets once in isolation mode; however, you will only be able to borrow stablecoins up to a certain debt ceiling.
 
-## How can I exit isolation mode?
+### How can I exit isolation mode?
 
 To exit isolation mode, you will need to disable the collateralized isolated asset you supplied. &#x20;
 
 1. Click the slider button from the “**Your Supplies**” section to disable the isolated asset. &#x20;
 2. Confirm the disabled isolation mode setting. You have now successfully exited isolation mode.&#x20;
 
-## How does Isolation mode affect my borrowing power?
+### How does Isolation mode affect my borrowing power?
 
 Upon entering isolation mode, you will be limited to borrowing stablecoins. This is further evidenced under the “Assets to Borrow” section, where you will see the available stablecoins listed.
 

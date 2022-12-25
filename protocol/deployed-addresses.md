@@ -6,9 +6,9 @@ description: >-
 
 # Deployed Addresses
 
-
-
 ## Core & Periphery Contracts
+
+This table contains the list of [core](https://github.com/mahalend/contracts-core) and [periphery](https://github.com/mahalend/contracts-periphery) contracts.
 
 | Contract Name                | Deployed Address                           |
 | ---------------------------- | ------------------------------------------ |
@@ -33,6 +33,8 @@ description: >-
 
 ## Tokens
 
+This table contains the deployment of the various aTokens on mainnet.
+
 | Contract Name           | Deployed Address                           |
 | ----------------------- | ------------------------------------------ |
 | ARTH                    | 0x8cc0f052fff7ead7f2edcccac895502e884a8a71 |
@@ -45,6 +47,8 @@ description: >-
 
 ## Libraries
 
+This table contains the list of all various libraries used by the lending pool.
+
 | Contract          |                                            |
 | ----------------- | ------------------------------------------ |
 | BorrowLogic       | 0x8FaD782A749dD851b9579d3000968a81f44d6496 |
@@ -54,6 +58,5 @@ description: >-
 | FlashloanLogic    | 0x368AB54965CCb0f05b520fCD4f471B8dD0b44d21 |
 | LiquidationLogic  | 0xE844327cC7c3307885E4A585248fa6786Eb76AFa |
 | SupplyLogic       | 0x4f7a43c603136C0970fE65dF7c24cA17EF3Ffe2E |
-|                   |                                            |
 | PoolLogic         | 0xFE41198Afd7819B4F14B853537876ece9DE6CE56 |
 

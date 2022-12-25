@@ -14,7 +14,6 @@
 * [Liquidations](features/liquidations.md)
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Deployed Addresses](protocol/deployed-addresses.md)
-* [FAQs](features/faqs.md)
 
 ## risks
 
