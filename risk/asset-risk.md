@@ -4,7 +4,7 @@ The composability of DeFi enables the Mahalend Protocol to connect with the rest
 
 ### Smart Contract Risk
 
-Smart contract risk focuses on measuring the technical security of the underlying code for any asset. Only code for assets that have undergone rigorous audits by well-respected auditors are appropriate for the Aave protocol. Beyond audits, smart contract risk remains (i.e., it can never be eliminated fully) and users must be vigilant in assessing such risk. Bug bounties can be used to help reduce smart contract risk. The maturity of any code can be assessed based on the number of days and the number of transactions with a particular smart contract — use, community, development and, in some instances, reliability are proxies for how battle-tested the code is.
+Smart contract risk focuses on measuring the technical security of the underlying code for any asset. Only code for assets that have undergone rigorous audits by well-respected auditors are appropriate for the MahaLend protocol. Beyond audits, smart contract risk remains (i.e., it can never be eliminated fully) and users must be vigilant in assessing such risk. Bug bounties can be used to help reduce smart contract risk. The maturity of any code can be assessed based on the number of days and the number of transactions with a particular smart contract — use, community, development and, in some instances, reliability are proxies for how battle-tested the code is.
 
 Smart contract hacks have already resulted in billions of funds lost. Accordingly, tokens with the highest smart-contract risk (i.e., D+ and below), are extremely risky collaterals. They should only be onboarded with strict risk mitigation such as supply caps or isolation mode.
 
