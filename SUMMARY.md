@@ -9,7 +9,6 @@
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
 * [Siloed Borrowing](protocol/siloed-borrowing.md)
-* [Flash Loans](protocol/flash-loans.md)
 * [Liquidations](features/liquidations.md)
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Governance](overview/governance.md)
@@ -33,3 +32,4 @@
 * [Website](https://mahalend.com)
 * [Github](https://github.com/mahalend)
 * [Governance](https://docs.mahadao.com/governance/governance-overview)
+* [ARTH Documentation](https://docs.arth.loans/)
