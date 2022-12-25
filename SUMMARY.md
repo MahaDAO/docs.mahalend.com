@@ -8,7 +8,6 @@
 * [Borrow ARTH](features/borrow-arth.md)
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
-* [Siloed Borrowing](protocol/siloed-borrowing.md)
 * [Liquidations](features/liquidations.md)
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Governance](overview/governance.md)
