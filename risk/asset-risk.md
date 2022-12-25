@@ -16,8 +16,7 @@ Counter-party risk assesses qualitatively how and by who the asset is governed. 
 
 Market risks are linked to the size of a particular asset pool in the protocol, as well as fluctuations in both supply and demand. The markets need to hold sufficient volume to account for any liquidations in the particular pool (i.e., sell offs which tend to lower the price of the underlying asset through slippage affecting the value recovered).
 
-Market risk assessments should use average daily volume representing the availability of the asset to assess liquidity risk: E\[volume]\
-
+Market risk assessments should use average daily volume representing the availability of the asset to assess liquidity risk: E\[volume]
 
 The volatility risk is based on the normalised fluctuations in the token price and is calculated as the standard deviation of the logarithmic returns: (check equation). This metric is in line with industry standards used by Bitmex or Gauntlet.
 

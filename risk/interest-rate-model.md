@@ -1,6 +1,6 @@
 # Interest Rate Model
 
-Liquidity risk materialises when utilisation is high, and this becomes more problematic as $$U$$ gets closer to 100%. To tailor the model to this constraint, the interest rate curve is split in two parts around an optimal utilisation rate $$U_{optimal}$$. Before $$U_{optimal}$$the slope is small, after it begins rising sharply.
+Liquidity risk materializes when utilization is high, and this becomes more problematic as $$U$$ gets closer to 100%. To tailor the model to this constraint, the interest rate curve is split in two parts around an optimal utilization rate $$U_{optimal}$$. Before $$U_{optimal}$$the slope is small, after it begins rising sharply.
 
 The interest rate$$R_t$$follows the model:
 
@@ -63,53 +63,9 @@ The assets that are most exposed to liquidity risk do not offer stable-rate borr
 The base rate of the stable rate model corresponds to the average market rate of the asset.
 {% endhint %}
 
-
-
-## Rate Strategy Volatile One
-
-Volatile assets need liquidity at all times and are thus calibrated at a low Optimal Utilisation Ratio.
-
-{% hint style="info" %}
-AAVE, BAL, CRV, DPI, GHST, LINK, SUSHI, WAVAX, WBTC, WETH, WFTM, WMATIC, WONE
-{% endhint %}
-
-| Parameters                         | Value |
-| ---------------------------------- | ----- |
-| Optimal Usage                      | 45%   |
-| Base Variable Borrow Rate          | 0     |
-| Variable Rate Slope 1              | 4%    |
-| Variable Rate Slope 2              | 300%  |
-| Base Stable Borrow Rate            | 2%    |
-| Stable Rate Slope 1                | 7%    |
-| Stable Rate Slope 2                | 300%  |
-| Optimal Stable to Total Debt Ratio | 20%   |
-
-## Rate Strategy Stable One
-
-Low liquidity stablecoins have a lower Optimal Utilisation Ratio than those with higher liquidity.
-
-{% hint style="info" %}
-DAI
-{% endhint %}
-
-| Parameters                         | Value |
-| ---------------------------------- | ----- |
-| Optimal Usage                      | 90%   |
-| Base Variable Borrow Rate          | 0     |
-| Variable Rate Slope 1              | 4%    |
-| Variable Rate Slope 2              | 60%   |
-| Base Stable Borrow Rate            | 2%    |
-| Stable Rate Slope 1                | 0.5%  |
-| Stable Rate Slope 2                | 60%   |
-| Optimal Stable to Total Debt Ratio | 20%   |
-
-## Rate Strategy Stable Two
+## Rate Strategy Stable&#x20;
 
 High liquidity stablecoins are calibrated to lower rates to encourage borrowing.
-
-{% hint style="info" %}
-SUSD, USDC, USDT, EURS, JEUR, AGEUR
-{% endhint %}
 
 | Parameters                         | Value |
 | ---------------------------------- | ----- |
@@ -123,16 +79,16 @@ SUSD, USDC, USDT, EURS, JEUR, AGEUR
 | Optimal Stable to Total Debt Ratio | 20%   |
 
 {% hint style="info" %}
-When market conditions change, the interest rate parameters must be changed to adapt to utilisation on Mahalend's market as well as to incentives across DeFi.
+When market conditions change, the interest rate parameters must be changed to adapt to utilisation on MahaLend's market as well as to incentives across DeFi.
 {% endhint %}
 
 ## Supply rate
 
-The borrow interest rates paid are distributed as yield for aToken holders who have supplied to the protocol, excluding a share of yields sent to the ecosystem reserve defined by the reserve factor. This interest rate is generated on the asset that is borrowed out then shared among all the liquidity providers. The supply APY, $$D_t$$, is:
+The borrow interest rates paid are distributed as yield for mToken holders who have supplied to the protocol, excluding a share of yields sent to the ecosystem reserve defined by the reserve factor. This interest rate is generated on the asset that is borrowed out then shared among all the liquidity providers. The supply APY, $$D_t$$, is:
 
 $$S_t = U_t ( SB_t S_t + VB_t V_t)(1-R_t)$$
 
-* $$U_t$$, the utilisation ratio
+* $$U_t$$, the utilization ratio
 * $$SB_t$$, the share of stable borrows
 * $$S_t$$, the average stable rate
 * $$VB_t$$, the share of variable borrows

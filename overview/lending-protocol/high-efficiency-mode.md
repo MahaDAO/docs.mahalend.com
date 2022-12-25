@@ -6,7 +6,7 @@ description: This page explains what is "High Efficiency mode" (E-mode)
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-The E-mode feature maximizes capital efficiency when collateral and borrowed assets have correlated prices. For example, DAI and USDC are stablecoins pegged to USD. These stablecoins are all within the same E-mode category.&#x20;
+The E-mode feature maximizes capital efficiency **(LTV up-to 97%)** when collateral and borrowed assets have correlated prices. For example, DAI and USDC are stablecoins pegged to USD. These stablecoins are all within the same E-mode category.&#x20;
 
 Accordingly, a user supplying DAI in E-mode will have a higher collateralization power when borrowing ARTH.
 

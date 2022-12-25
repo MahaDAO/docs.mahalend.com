@@ -10,7 +10,7 @@ In the event one of the underlying collateral collapses faster than the risk tea
 
 ## **Borrow Caps**
 
-Allow modulation of how much of each asset can be borrowed, which reduces insolvency risk.
+Borrow caps define the maximum amount of an asset which can be borrowed. Borrow caps can be used to prevent traditional and flash borrowing of an asset which may experience a price exploit and lead to protocol insolvency. A borrow cap is an optional parameter, and the value will depend on-chain liquidity of the asset and total volume of borrowed assets in the pool.
 
 By default borrow cap of an asset is 0, which signifies no cap. Anyone who has been granted `RISK_ADMIN` or `POOL_ADMIN` role via the ACLManager can call [`setBorrowCap` method in PoolConfigurator](broken-reference) to update the max total borrow (stable + variable) for the given reserve.
 
@@ -22,7 +22,7 @@ In case the `Borrow Cap` of the reserve is set lower than the current `totalDebt
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Supply cap shown in the UI for a particular asset.</p></figcaption></figure>
 
-Allow limiting how much of a certain asset is supplied to the MahaLend protocol. This helps reduce exposure to a certain asset and mitigate attacks like infinite minting or price oracle manipulation.
+Supply caps define the maximum amount of an asset which can be supplied to the protocol. Supply caps can be used to limit the protocol’s exposure to riskier assets and protect against infinite minting exploits. A supply cap is an optional parameter, and the value will depend on on-chain liquidity of the asset and total volume of collateral assets in the pool.
 
 By default supply cap of an asset is 0, which signifies no cap. Anyone who has been granted `RISK_ADMIN` or `POOL_ADMIN` role via the ACLManager can call `setSupplyCap` method in PoolConfigurator to update the liquidity supply for the given reserve.
 
