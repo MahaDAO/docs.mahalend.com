@@ -8,27 +8,29 @@ description: This section explains how you can borrow ARTH using the supplied co
 
 Borrowing is the primary utility of the MahaLend protocol. With MahaLend you can borrow ARTH against different kinds of collateral allowing you to leverage yourself on these collateral pools.
 
-## Types of Borrowing
+All loans and lending protocols require the borrower to put up some collateral to ensure the loan. This is how the protocol can remain solvent and ensure the liquidity providers will never lose their investments.&#x20;
 
-There are two types of borrowing. The first is over-collateralized, which makes up the majority of loans the general user will utilize.&#x20;
+Typically, the borrower will need to over-collateralize, meaning they deposit more value than they borrow. The minimum collateral-to-debt threshold is generally around X and will change based on the market you are borrowing and the current liquidity available to borrow. &#x20;
 
-The second is under-collateralized, or single transaction loans, which are a bit more complex.&#x20;
+Your collateral will automatically get liquidated to cover the loan if this **threshold is ever breached**. Depending on the type of collateral a user deposits, this may happen in high-volatility environments, where the value of the collateral depreciates against the value of the borrowed asset. This is an inherent risk to borrowing against volatile assets and is why over-collaterization is the safest way to avoid being liquidated.&#x20;
 
-### Over-collateralized borrowing
+Additionally, borrowers must pay an interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. There are two kinds of interest rates when a borrower borrows ARTH described below.
 
-All loans and lending protocols require the borrower to put up some collateral to ensure the loan. This is how the protocol can remain solvent and ensure the liquidity providers will never lose their investments. Typically, the borrower will need to overcollateralize, meaning they deposit more value than they borrow. The minimum collateral-to-debt threshold is generally around X and will change based on the market you are borrowing and the current liquidity available to borrow. To know more about how the CD ratio is calculated, please visit the Risk Parameters section below.&#x20;
+## Stable & Variable Interest Rates
 
-Your collateral will automatically get liquidated to cover the loan if this **threshold is ever breached**. Depending on the type of collateral a user deposits, this may happen in high-volatility environments, where the value of the collateral depreciates against the value of the borrowed asset. This is an inherent risk to borrowing volatile assets and is why overcollaterization is the safest way to avoid being liquidated.&#x20;
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>When borrowing ARTH, the user has an option to choose which interest rate he'd like to use when paying interest.</p></figcaption></figure>
 
-Additionally, borrowers must pay interest on their loans at the closure time. This is how the protocol can provide a yield to liquidity providers. Within the Mahalend ecosystem, there are two interest rate variations. Stable and variable. Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risk/interest-rate-model.md) section.
+Within the MahaLend ecosystem, there are two interest rate variations. Stable or Variable.&#x20;
 
-### Under-collateralized loans or Flash Loans
+Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risk/interest-rate-model.md) section.
 
-Under-collateralized loans, or Flash loans, are a feature designed for developers due to the technical knowledge required to execute one. Flash Loans allow you to borrow any available amount of assets without putting up any collateral as long as the liquidity is returned to the protocol within one block transaction.&#x20;
+The stable rates act as fixed rates in the short term but can be re-balanced in the long term in response to changes in market conditions.&#x20;
 
-To do a Flash Loan, you will need to build a smart contract that requests a Flash Loan. The contract will then need to execute the instructed steps and pay back the loan + interest and fees, all within the same transaction. A user cannot take out a flash loan without first ensuring the smart contract is correctly written and that the transaction will return the loan. That is how the protocol ensures no risk is taken on by investors.&#x20;
+Whereas the variable rate is dynamic and is based on the offer and demand in ARTH.&#x20;
 
-Flash loans are mainly utilized by developers and dApps and have many uses, such as arbitrage and closing/opening/swapping collateralized positions. The average user will likely never utilize flash loans.
+As its name indicates, the stable rate will remain pretty stable, and it is the best option to plan how much interest you will have to pay. The variable rate will change over time and could be the optimal rate depending on market conditions.&#x20;
+
+You can switch between the stable and variable rates at any time through the dashboard.
 
 ## FAQs
 
@@ -49,12 +51,6 @@ You can find every collateral available and its specific parameters for borrowin
 You repay your loan with the same asset you borrowed. For example, if you borrow 1 ARTH, you will pay back 1 ARTH + interest accrued. You can also use your collateral to repay.&#x20;
 
 If you want to pay back the loan based on the USD price, you can borrow any available stablecoins such as USDC, DAI, etc.
-
-### What is the difference between stable and variable rates?
-
-Stable rates act as fixed rates in the short term but can be re-balanced in the long term in response to changes in market conditions. The variable rate is based on the offer and demand in ARTH.&#x20;
-
-As its name indicates, the stable rate will remain pretty stable, and it is the best option to plan how much interest you will have to pay. The variable rate will change over time and could be the optimal rate depending on market conditions. You can switch between the stable and variable rates at any time through your dashboard.
 
 ### When could my stable rate be rebalanced?
 
