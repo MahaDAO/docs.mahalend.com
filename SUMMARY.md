@@ -4,6 +4,7 @@
 
 ## Protocol
 
+* [Page 1](protocol/page-1.md)
 * [Supply Collateral](features/supply-collateral.md)
 * [Borrow ARTH](features/borrow-arth.md)
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
