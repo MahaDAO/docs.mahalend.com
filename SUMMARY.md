@@ -13,7 +13,6 @@
 * [Deployed Addresses](features/deployed-addresses.md)
 * [Flash Loans](features/flash-loans.md)
 * [Liquidations](features/liquidations.md)
-* [Liquidations](features/liquidations-1.md)
 * [Supply Borrow Caps](features/supply-borrow-caps.md)
 * [FAQs](features/faqs.md)
 
