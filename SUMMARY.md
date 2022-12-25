@@ -9,6 +9,7 @@
 * [Isolation Mode](overview/lending-protocol/isolation-mode.md)
 * [High Efficiency Mode](overview/lending-protocol/high-efficiency-mode.md)
 * [Governance](overview/governance.md)
+* [Liquidations](features/liquidations.md)
 * [FAQs](features/faqs.md)
 
 ## TUTORIALS

@@ -6,58 +6,7 @@ description: >-
 
 # FAQs
 
-## _Borrowing_
-
-## Why would I borrow instead of selling my assets?
-
-Selling your assets means closing your position on that particular asset. Hence, if you are long on the asset, you would not be entitled to the potential upside value gain. By borrowing, you can obtain liquidity (working capital) without selling your assets. Users mainly borrow for unexpected expenses, leveraging their holdings, or new investment opportunities.
-
-## How much I can borrow?
-
-The maximum amount you can borrow depends on your supplied value and available liquidity. For example, you can’t borrow an asset if there is insufficient liquidity or your health factor doesn’t allow you to. You can find every collateral available and its specific parameters for borrowing in the [risk](broken-reference)[ framework](../risk/risk-framework.md) section.
-
-## What asset do I need to repay?
-
-You repay your loan with the same asset you borrowed. For example, if you borrow 1 ARTH, you will pay back 1 ARTH + interest accrued. You can also use your collateral to repay. If you want to pay back the loan based on the USD price, you can borrow any available stablecoins such as USDC, DAI, etc.
-
-## What is the difference between stable and variable rates?
-
-Stable rates act as fixed rates in the short term but can be re-balanced in the long term in response to changes in market conditions. The variable rate is based on the offer and demand in ARTH.&#x20;
-
-As its name indicates, the stable rate will remain pretty stable, and it is the best option to plan how much interest you will have to pay. The variable rate will change over time and could be the optimal rate depending on market conditions. You can switch between the stable and variable rates at any time through your dashboard.
-
-## When could my stable rate be rebalanced?
-
-Stable rate rebalance is expected to be unlikely but will happen if the average borrow rate is lower than 25% APY and the utilization rate is over 95%.
-
-## How do I switch my interest rate type?
-
-To switch your interest rate between stable and variable rate, browse your dashboard and click on the “APR Type” switch button for the asset you wish to apply the rate change.
-
-## Can I borrow using the stable and variable rates simultaneously for one asset?
-
-No, you can only borrow using a stable or variable rate. If you switch to your desired rate, it will switch the rate for your whole debt on that asset. Despite this, you can have different borrowing rates for different assets.
-
-## What is the health factor?
-
-The health factor is the numeric representation of the safety of your deposited assets against the borrowed assets and their underlying value. The higher the value is, the safer the state of your funds is against a liquidation scenario. If the health factor reaches 1, the liquidation of your deposits will be triggered. A Health Factor below 1 can get liquidated. For an HF=2, the collateral value vs. borrow can reduce by 1 out of 2: 50%. The health factor depends on the liquidation threshold of your collateral against the value of your borrowed funds. You can find all of the collateral parameters in the [risk parameter](../risk/risk-framework.md#health-factor) section.&#x20;
-
-\
-If you would like to know more technical details about the health factor calculation, you can find those [here](../risk/risk-framework.md#health-factor).
-
-## What happens when my health factor is reduced?
-
-Depending on the value fluctuation of your supplies, the health factor will increase or decrease. If your health factor increases, it will improve your borrow position by making the liquidation threshold unlikely to be reached. In the case that the value of your collateralised assets against the borrowed assets decreases instead, the health factor is also reduced, causing the risk of liquidation to increase.
-
-## When do I need to pay back the loan?
-
-There is no fixed time period to pay back the loan. You can borrow for an undefined period if your position is safe. However, as time passes, the accrued interest will grow to make your health factor decrease, which might result in your deposited assets becoming more likely to be liquidated.
-
-## How do I pay back the loan?
-
-In order to pay back the loan, you go to the Borrowings section of your dashboard and click on the repay button for the asset you borrowed and want to repay. Select the amount to pay back and confirm the transaction.
-
-In order to avoid the reduction of your health factor leading to liquidation, you can repay the loan or deposit more assets in order to increase your health factor. Out of these two available options, repaying the loan would increase your health factor more.
+__
 
 ## _Supplying_
 

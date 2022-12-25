@@ -26,7 +26,7 @@ description: A step-by-step tutorial for Overcollateralized borrowing
 _**Variable APY**_- Variable rate can increase and decrease depending on the amount of liquidity in the reserve. \
 _**Stable APY**_- It will stay the same for the duration of your loan.&#x20;
 
-<figure><img src="../.gitbook/assets/2.jpg" alt=""><figcaption><p>When you input an amount you need to check the health factor alongside the type of borrow APY you want to select. </p></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (3).jpg" alt=""><figcaption><p>When you input an amount you need to check the health factor alongside the type of borrow APY you want to select. </p></figcaption></figure>
 
 ****
 
