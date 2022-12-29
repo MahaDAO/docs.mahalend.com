@@ -12,6 +12,7 @@
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Governance](overview/governance.md)
 * [Deployed Addresses](protocol/deployed-addresses.md)
+* [Credit Delegation](protocol/credit-delegation.md)
 
 ## risks
 
