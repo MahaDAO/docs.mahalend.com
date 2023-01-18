@@ -34,18 +34,18 @@ New assets with potentially manipulatable oracles (e.g., illiquid Uni V3 pairs w
 
 ### eMode
 
-Efficient Mode (”eMode”) allows assets which are correlated in price (e.g., DAI, USDC, and ARTH) to be listed in the same eMode category which maximises capital efficiency by allowing higher LTVs when both the borrowed and collateral asset belong to the same eMode category.&#x20;
+Efficient Mode (”eMode”) allows assets that are correlated in price (e.g., DAI, USDC, and ARTH) to be listed in the same eMode category, which maximizes capital efficiency by allowing higher LTVs when both the borrowed and collateral asset belong to the same eMode category.&#x20;
 
 MahaLend allows `RISK_ADMINS` and `POOL_ADMIN`, selected by MahaLend Governance, to configure up to 255 eMode categories, with each `EModeCategory` having the following risk management parameters:
 
-* LTV (loan to value)
+* LTV (Loan to Value)
 * Liquidation Threshold
 * Liquidation Bonus
 * Custom price oracle (optional)
 
 ### Loan to Value
 
-The Loan to Value (”LTV”) ratio defines the maximum amount of assets that can be borrowed with a specific collateral. It is expressed as a percentage (e.g., at LTV=75%, for every 1 ETH worth of collateral, borrowers will be able to borrow 0.75 ETH worth of the corresponding currency). Once a borrow occurs, the LTV evolves with market conditions.
+The Loan to Value ("LTV") ratio defines the maximum amount of assets that can be borrowed with specific collateral. It is expressed as a percentage (e.g., at LTV=75%, for every 1 ETH worth of collateral, borrowers will be able to borrow 0.75 ETH worth of the corresponding currency). Once a borrow occurs, the LTV evolves with market conditions.
 
 {% hint style="info" %}
 For each wallet, the Liquidation Threshold is calculated as the weighted average of the Liquidation Thresholds of the collateral assets and their value: $$Liquidation \: Threshold= \frac{ \sum{Collateral_i \: in \: ETH \: \times \: Liquidation \: Threshold_i}}{Total \: Collateral \: in \: ETH \:}$$
