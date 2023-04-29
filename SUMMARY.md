@@ -19,8 +19,8 @@
 ## risks
 
 * [Risk Framework](risk/risk-framework.md)
-* [Liquidity Risk](risks/liquidity-risk/README.md)
-  * [Interest Rate Model](risks/liquidity-risk/interest-rate-model.md)
+* [Liquidity Risk](risks/liquidity-risk.md)
+* [Interest Rate Model](risks/interest-rate-model.md)
 * [Asset Risk](risk/asset-risk.md)
 
 ## TUTORIALS

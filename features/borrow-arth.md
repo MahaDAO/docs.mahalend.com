@@ -22,7 +22,7 @@ Additionally, borrowers must pay an interest on their loans at the closure time.
 
 Within the MahaLend ecosystem, there are two interest rate variations. Stable or Variable.&#x20;
 
-Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risks/liquidity-risk/interest-rate-model.md) section.
+Similar to a mortgage, you can choose which variation you’d like to pay, and they are both subject to change. However, it differs from mortgages in that interest must only be repaid at the end of the life of your loan. For more information on borrower interest rates and how they are calculated, please see the [Interest Rate Model](../risks/interest-rate-model.md) section.
 
 The stable rates act as fixed rates in the short term but can be re-balanced in the long term in response to changes in market conditions.&#x20;
 

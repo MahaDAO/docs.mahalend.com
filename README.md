@@ -4,7 +4,7 @@ description: This page introduces MahaLend and explains the various aspects of t
 
 # Overview
 
-<figure><img src=".gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 MahaLend is a decentralized non-custodial liquidity protocol (meaning your funds are yours and yours alone) where users can either provide liquidity and receive interest, or borrow ARTH, and pay interest on their loan. MahaLend is a fork of [AAVE V3](https://aave.com/).
 
