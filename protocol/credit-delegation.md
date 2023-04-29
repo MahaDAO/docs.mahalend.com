@@ -7,9 +7,7 @@ description: This page talks about Credit Delegation
 Credit delegation allows a depositor to deposit funds in the protocol to earn interest and delegate borrowing power (i.e., their credit) to other users. The loan enforcement and its terms are agreed upon between the depositor and borrowers, either off-chain via legal agreements or on-chain via smart contracts. This enables:
 
 * The supplier (aka delegator) to earn an extra yield on top of the yield they already earn from the protocol,
-* The borrowers (aka delegatees) access an uncollateralized loan.
-
-
+* The borrowers (aka delegatees) access an un-collateralized loan.
 
 {% hint style="info" %}
 Borrow by _delegatee_ must be consistent with the _delegator_ [E-Mode ](../overview/lending-protocol/high-efficiency-mode.md)category. For e.g., if a delegator E-Modecategory is `STABLECOINS`, then
@@ -38,4 +36,4 @@ The borrower (delegatee) calls the `borrow()` method on the `Pool`, using the su
 
 ### Repaying the credit <a href="#repaying-the-credit" id="repaying-the-credit"></a>
 
-Anyone can repay the debt _OnBehalf_ of the user by calling one of the methods - repay() or repayWithPermit(). The supplier (aka creditor) can also use repayWithATokens() method to repay debt with their _aTokens_ of the underlying debt asset in the same pool.
+Anyone can repay the debt _OnBehalf_ of the user by calling one of the methods - `repay()` or `repayWithPermit()`. The supplier (aka creditor) can also use `repayWithATokens()` method to repay debt with their _aTokens_ of the underlying debt asset in the same pool.
