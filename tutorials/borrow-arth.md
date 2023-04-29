@@ -28,7 +28,7 @@ _**Stable APY**_- It will stay the same for the duration of your loan.&#x20;
 
 <figure><img src="../.gitbook/assets/2 (3).jpg" alt=""><figcaption><p>When you input an amount you need to check the health factor alongside the type of borrow APY you want to select. </p></figcaption></figure>
 
-****
+
 
 **Step 4:** You need to check the details and click on borrow followed by which you will get a wallet approval request to confirm the transaction.&#x20;
 

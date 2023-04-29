@@ -11,7 +11,9 @@
 * [Liquidations](features/liquidations.md)
 * [Supply/Borrow Caps](protocol/supply-borrow-caps.md)
 * [Governance](overview/governance.md)
-* [Deployed Addresses](protocol/deployed-addresses.md)
+* [Deployed Addresses](protocol/deployed-addresses/README.md)
+  * [Ethereum](protocol/deployed-addresses/ethereum.md)
+  * [Arbitrum](protocol/deployed-addresses/arbitrum.md)
 * [Credit Delegation](protocol/credit-delegation.md)
 
 ## risks
